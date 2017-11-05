@@ -1,1 +1,5 @@
-# java9-workshop
+# Workshop i Java 9
+
+Oppgavene tar for seg det nye i versjonen. Oppgavene ligger på separate brancher og starter med oppgave/1
+
+Javadoc: https://docs.oracle.com/javase/9/ 
