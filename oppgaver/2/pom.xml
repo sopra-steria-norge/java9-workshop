@@ -10,8 +10,7 @@
     <packaging>pom</packaging>
 
 	<modules>
-		<module>utils</module>
-        <module>calculator</module>
+		<module>http2</module>
     </modules>
 
     <properties>
