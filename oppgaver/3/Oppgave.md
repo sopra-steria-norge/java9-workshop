@@ -1,16 +1,5 @@
-# Http2 client
+# Private methods i interfacer
 
-## Oppgave 2
+## Oppgave 3
 ### a)
-Benytt javadocen for å sette opp en HTTP2-client og gjør synkrone kall mot http://www.vondess.com/dovre/api. 
-Link til [Javadoc](https://docs.oracle.com/javase/9/docs/api/overview-summary.html)
-
-Vurder følgende:
-* Hva er spesielt med modulen klienten ligger i?
-* Bør den benyttes i produksjonskode?
-
-### b)
-Endre klienten fra oppgave _a)_ til å være asynkron.
-Legg inn _Thread.sleep(5000)_ før du sjekker om det har kommet respons.
-
-NB! Husk å kanseler requestet hvis det ikke har kommet respons. 
+Få testene i _DemoInterfaceTest.java_ til å gå grønt uten å utvide interface med nye metoder.
