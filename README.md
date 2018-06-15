@@ -1,5 +1,9 @@
-# Workshop i Java 9
+# Workshop i Java 9 og 10
 
-Oppgavene tar for seg det nye i versjonen. Oppgavene ligger på separate brancher og starter med _oppgave/1_
+Oppgavene tar for seg litt av det som er nytt i java9 og java 10. 
 
-Javadoc: https://docs.oracle.com/javase/9/ 
+Merk at Git bash ikke anbefales for jshell-oppgaver
+
+Javadoc: 
+* https://docs.oracle.com/javase/9/ 
+* https://docs.oracle.com/javase/9/ 
