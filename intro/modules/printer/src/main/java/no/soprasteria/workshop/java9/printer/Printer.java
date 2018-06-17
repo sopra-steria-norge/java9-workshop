@@ -1,7 +1,5 @@
 package no.soprasteria.workshop.java9.printer;
 
-// import no.soprasteria.workshop.java9.splitter.Splitter;
-
 import no.soprasteria.workshop.java9.verifier.Verifier;
 
 public class Printer {
@@ -21,6 +19,8 @@ public class Printer {
         theWorldsDumbestPrint(verifier.returnOnlyVerifiedCharacters("!!!!JAVA 9 Modules!!!!"));
         theWorldsDumbestPrint(verifier.returnOnlyVerifiedCharacters("Kan jeg bruke Splitter eller Combiner her tro?"));
 
-//        new Splitter().wordSplitter("Ja eller nei?");
+        // List<String> strings = new Splitter().wordSplitter("Ja eller nei?");
+        // theWorldsDumbestPrint(new Combiner().combineCharacters(strings));
+
     }
 }

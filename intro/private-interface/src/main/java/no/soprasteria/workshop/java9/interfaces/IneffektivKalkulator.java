@@ -5,18 +5,18 @@ import java.util.stream.IntStream;
 
 public interface IneffektivKalkulator {
     default int sumAvParTall(int... nums) {
-        return leggSamen(n -> n % 2 == 0, nums);
+        return leggSammen(n -> n % 2 == 0, nums);
     }
 
     default int sumAvOddetall(int... nums) {
-        return leggSamen(n -> n % 2 != 0, nums);
+        return leggSammen(n -> n % 2 != 0, nums);
     }
 
     default int sum(int... nums) {
         return sumAvOddetall(nums) + sumAvParTall(nums);
     }
 
-    private int leggSamen(IntPredicate predicate, int... nums) {
+    private int leggSammen(IntPredicate predicate, int... nums) {
         return IntStream.of(nums)
                 .filter(predicate)
                 .sum();
