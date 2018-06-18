@@ -1,6 +1,6 @@
 package no.ss.workshop.privface;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.math.BigDecimal;
 
@@ -10,12 +10,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 class DemoInterfaceTest implements DemoInterface {
 
     @Test
-    void skal_ikke_utvide_interfaceet() {
+    public void skal_ikke_utvide_interfacet() {
         assertThat(DemoInterface.class.getMethods()).hasSize(2);
     }
 
     @Test
-    void triangelNumber() {
+    public void triangelNumber() {
         DemoInterfaceTest demoInterface = new DemoInterfaceTest();
         assertThat(demoInterface.getTriangelNumber(BigDecimal.ZERO)).isEqualTo(BigDecimal.ZERO);
         assertThat(demoInterface.getTriangelNumber(BigDecimal.ONE)).isEqualTo(BigDecimal.ONE);
@@ -29,7 +29,7 @@ class DemoInterfaceTest implements DemoInterface {
     }
 
     @Test
-    void squareNumbers() {
+    public void squareNumbers() {
         DemoInterfaceTest demoInterface = new DemoInterfaceTest();
         assertThat(demoInterface.getSquareNumber(BigDecimal.ZERO)).isEqualTo(BigDecimal.ZERO);
         assertThat(demoInterface.getSquareNumber(BigDecimal.ONE)).isEqualTo(BigDecimal.ONE);
