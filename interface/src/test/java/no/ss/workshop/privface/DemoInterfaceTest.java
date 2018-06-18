@@ -7,8 +7,7 @@ import java.math.BigDecimal;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-class DemoInterfaceTest implements DemoInterface {
-
+public class DemoInterfaceTest implements DemoInterface {
     @Test
     public void skal_ikke_utvide_interfacet() {
         assertThat(DemoInterface.class.getMethods()).hasSize(2);
