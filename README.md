@@ -9,7 +9,7 @@ Javadoc:
 * https://docs.oracle.com/javase/10/ 
 
 
-#Oppgave 1 - JShell
+# Oppgave 1 - JShell
 ## a)
 
  * Start opp jshell
