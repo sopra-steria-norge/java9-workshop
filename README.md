@@ -33,7 +33,7 @@ Javadoc:
 
 * Lag en metode som returner doblet inputverdi, og bruk den for å doble en vilkårlig verdi
 * Lagre sesjonen til en fil og lukk jshell
-* Åpne jshell igjen, og hent inn lagret sesjon. Verifiser at metoden som ble opprettet i forrige sesjon er tilgjengelige
+* Åpne jshell igjen, og hent inn lagret sesjon. Verifiser at metoden som ble opprettet i forrige sesjon er tilgjengelig
 
 
 # Oppgave 2 - Java9 Modules 
@@ -59,7 +59,7 @@ til å kompilere
 Oppgaven består av 1 modul
 * gui
 
-Verifisers ved å kjøre  _RunMeApplication.java_.
+Verifises ved å kjøre  _RunMeApplication.java_.
 
 NB! Det er to mulige løsninger på utfordringen. Prøv begge :) 
 
@@ -69,14 +69,14 @@ Benytt javadocen for å sette opp en HTTP2-client og gjør synkrone kall mot htt
 Link til [Javadoc](https://docs.oracle.com/javase/9/docs/api/overview-summary.html)
 
 Vurder følgende:
-* Hva er spesielt med modulen klienten ligger i?
+* Hva er spesielt med jdk-modulen klienten ligger i?
 * Bør den benyttes i produksjonskode?
 
 ## b)
 Endre klienten fra oppgave _a)_ til å være asynkron.
 Legg inn _Thread.sleep(5000)_ før du sjekker om det har kommet respons.
 
-NB! Husk å kanseler requestet hvis det ikke har kommet respons. 
+NB! Husk å kansellere requestet hvis det ikke har kommet respons. 
 
 
 # Oppgave 4 - Endringer i Collections- og Stream-API (og litt mer jshell) (Java9)
