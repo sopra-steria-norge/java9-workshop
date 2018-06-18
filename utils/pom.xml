@@ -13,4 +13,12 @@
     <artifactId>java-9.utils</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>no.soprasteria.workshop</groupId>
+            <artifactId>java-9.printer</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
 </project>

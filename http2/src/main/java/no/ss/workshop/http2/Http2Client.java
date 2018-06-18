@@ -3,7 +3,6 @@ package no.ss.workshop.http2;
 public class Http2Client {
 
     public static void main(String[] args) {
-        HttpClient httpClient = Http
         // TODO: Implementer løsningen her
     }
 }
