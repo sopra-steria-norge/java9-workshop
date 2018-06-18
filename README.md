@@ -41,7 +41,7 @@ Forhold deg til følgende 2 moduler:
 * calculator
 * utils
 
-Sett opp korrekte _exports_ og _requires_, og få koden til å kompillere. Verifiser med å kjøre _RunMe.java_ i 
+Sett opp korrekte _exports_ og _requires_, og få koden til å kompilere. Verifiser med å kjøre _RunMe.java_ i 
 calculator-modulen. 
 
 ### b)
@@ -96,7 +96,6 @@ Bruk dropwhile, takewhile og utfør følgende:
 
 * Gitt en strøm av tall fra 1-100, print alle tall > 50
 * Gitt en strøm av tall fra 1-100, print alle tall < 50
-* Gitt en strøm av tall fra 1-100, print alle tall
 
 # Oppgave 5 - Java 10 - Local variable type inference 
 
