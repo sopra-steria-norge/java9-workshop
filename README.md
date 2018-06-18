@@ -4,7 +4,7 @@ Oppgavene tar for seg litt av det som er nytt i java9 og java 10.
 
 Merk at Git bash ikke anbefales for jshell-oppgaver, men kan benyttes ved å kjøre "winpty jshell".
 
-NB! Har du en settings.xml som er endret for å fungere for prosjektet ditt? Da bør du endre tilbake til standard settings.xml. Det vil feile.
+NB! Har du en settings.xml som er endret for å fungere for prosjektet ditt? Da bør du endre tilbake til standard settings.xml.
 
 Javadoc: 
 * https://docs.oracle.com/javase/9/ 
