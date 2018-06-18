@@ -1,2 +1,2 @@
-module no.ss.workshop {
+module workshop {
 }
