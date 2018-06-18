@@ -138,7 +138,7 @@ Få testene i _DemoInterfaceTest.java_ til å gå grønt uten å utvide interfac
 
 # Oppgave 8 - Jshell - utforsking av API 
 * Legg til commons-lang3 på classpath
-    Last den ned, eller bygg prosjektet- Havner isåfall her: ~/.m2/repository/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar
+    Last den ned, eller legg til i pom og bygg prosjektet- Havner isåfall her: ~/.m2/repository/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar
     importer org.apache.commons.lang3.*
 * Ta en kikk på metodene som StringUtils tilbyr
 * Gjør en sjekk i jShell vha StringUtils for å finne ut av om en streng inneholder kun bokstaver. Gjør tilsvarende for "kun tall"
