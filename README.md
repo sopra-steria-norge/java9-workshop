@@ -159,3 +159,7 @@ Få testene i _DemoInterfaceTest.java_ til å gå grønt uten å utvide interfac
 * Hvor ofte trenger du Corba i jdken din?
 * Sammenlikn størrelsen på imaget og jdken
 * Tenk gjennom hva bruk av Jlink kan bety for størrelsen på f.eks docker-containere
+
+## Oppgave 10
+
+* Finn på noen morsomt å gjøre selv, relatert til java 9 og 10
